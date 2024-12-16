@@ -1,0 +1,40 @@
+.home-page {
+    // background: $color-primary;
+
+    h3 {
+        font-size: 100px;
+    }
+
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    @media screen and (max-width: 768px) {
+        width: 96%;
+    } 
+}
+
+.pl-none {
+    padding-left: 0px;
+}
+
+.b-none {
+    border: none;
+}
+
+.m-none {
+    margin: 0px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.gap-s {
+    gap: 20px;
+}
